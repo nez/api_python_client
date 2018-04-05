@@ -2,6 +2,7 @@
 
 ---
 Script base para la consulta de datos al API de https://api.datos.gob.mx/v2
+Puedes ejecutar el script con: `python3 client.py`
 
 ## Licencia
 Software libre, puede ser redistribuido bajo los términos especificados en nuestra [licencia](https://datos.gob.mx/libreusomx).
