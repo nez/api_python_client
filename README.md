@@ -1,7 +1,8 @@
-# API - cliente de python
+# API.datos.gob.mx - cliente de python
 
 ---
 Script base para la consulta de datos al API de https://api.datos.gob.mx/v2
+
 Puedes ejecutar el script con: `python3 client.py`
 
 ## Licencia
