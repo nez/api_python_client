@@ -1,21 +1,21 @@
-#!/usr/bin/python3
+	#!/usr/bin/python3
 
 import client as api
 
 
 # objeto de pruebas
 query = {}
-api.makeCall('sinaica', {})
+api.makeCall('sinaica', query)
 
 # pageSize
 query = {
-    "pagesize": "10"
+    "pageSize": "10"
 }
 api.makeCall('sinaica', query)
 
 # Igualdad
 query = {
-    "pagesize": "10",
+    "pageSize": "10",
     "parametro": "PM2.5",
     "estacionesid": 300
 }
@@ -31,6 +31,6 @@ api.makeCall('sinaica', query)
 # sort
 query = {
     "sort": "date-insert",
-    "pagesize": 10
+    "pageSize": 10
 }
 api.makeCall('sinaica', query)
